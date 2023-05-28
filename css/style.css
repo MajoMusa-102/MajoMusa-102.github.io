@@ -1,0 +1,96 @@
+.navbar {
+    background-color: #f8f8f8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .navbar-logo {
+    height: 40px;
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .navbar-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-option {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .navbar-option:hover {
+    color: #666;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-buttonC {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: rgba(107, 65, 246, 1);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .navbar-buttonI {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: rgba(205, 203, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .navbar-buttonI:hover {
+    background-color: #666;
+  }
+  .navbar-buttonC:hover {
+    background-color: #666;
+  }
+  .inicio{
+    background-color: #ffffff;
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
+
+  }
+  .quienes{
+    background-color: #ffffff;
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 250px;
+  }
+  .contactar{
+    background-color: #ffffff;
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 250px;
+  }
+  .nuestro{
+    background-color: rgba(244, 244, 244, 1);
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 250px;
+  }
